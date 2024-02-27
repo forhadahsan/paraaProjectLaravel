@@ -1,0 +1,62 @@
+@extends('frontend.layout')
+@section('content')
+<header class="section-gap-t pb-10">
+    <h1 class="heading font-bold">About Paraa</h1>
+</header>
+
+<section class="[&>p]:pb-5 [&>p]:text-primary-300">
+    <p>
+        In the heart of the bustling urban landscape, Paraā presents "Harmony Heights," a visionary testament to
+        sustainable living and architectural innovation. This transformative project redefines the very fabric
+        of city living, seamlessly blending the contemporary with the natural to create an urban oasis like no
+        other.
+    </p>
+    <p>
+        At Harmony Heights, every architectural detail is a deliberate step towards environmental harmony. The
+        meticulously designed green spaces
+    </p>
+    <img class="w-full pt-7 pb-12" src="{{asset('frontend/assets/about/about-banner.png')}}" alt="" srcset="">
+    <p>
+        From rooftop gardens to communal parks, not only enhance the visual aesthetics but also contribute to a
+        greener, healthier urban ecosystem. The integration of sustainable technologies and practices ensures
+        that this oasis not only thrives in the present but also becomes a beacon of responsible urban
+        development for the future.
+    </p>
+    <p>
+        Beyond its architectural prowess, Harmony Heights stands as a community in itself. The carefully planned
+        residential and communal spaces foster a sense of belonging and connection among its residents. It's a
+        place where individuals come together to share not just spaces but experiences, creating a vibrant and
+        inclusive urban community.
+    </p>
+    <p>
+        Explore the synergy between nature and modernity as Harmony Heights exemplifies a new era in urban
+        living. Through this sustainable urban oasis, Paraā invites you to witness the harmonious coexistence of
+        architectural brilliance, environmental consciousness, and community spirit, making it a beacon of
+        inspiration for sustainable urban development worldwide. Welcome to Harmony Heights, where the city
+        meets serenity, and sustainable living becomes a way of life.
+    </p>
+    <div class="grid grid-cols-2 gap-5 lg:gap-8 pt-7 pb-12">
+        <img class="w-full" src="{{asset('frontend/assets/about/about-left.png')}}" alt="" srcset="">
+        <img class="w-full" src="{{asset('frontend/assets/about/about-right.png')}}" alt="" srcset="">
+    </div>
+    <p>
+        From rooftop gardens to communal parks, not only enhance the visual aesthetics but also contribute to a
+        greener, healthier urban ecosystem. The integration of sustainable technologies and practices ensures
+        that this oasis not only thrives in the present but also becomes a beacon of responsible urban
+        development for the future.
+    </p>
+    <p>
+        Beyond its architectural prowess, Harmony Heights stands as a community in itself. The carefully planned
+        residential and communal spaces foster a sense of belonging and connection among its residents. It's a
+        place where individuals come together to share not just spaces but experiences, creating a vibrant and
+        inclusive urban community.
+    </p>
+    <p>
+        Explore the synergy between nature and modernity as Harmony Heights exemplifies a new era in urban
+        living. Through this sustainable urban oasis, Paraā invites you to witness the harmonious coexistence of
+        architectural brilliance, environmental consciousness, and community spirit, making it a beacon of
+        inspiration for sustainable urban development worldwide. Welcome to Harmony Heights, where the city
+        meets serenity, and sustainable living becomes a way of life.
+    </p>
+</section>
+@endsection
